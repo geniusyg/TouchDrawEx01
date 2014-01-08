@@ -21,6 +21,7 @@
 		516B79AB187DC4BB00D49A63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516B798D187DC4BB00D49A63 /* UIKit.framework */; };
 		516B79B3187DC4BB00D49A63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 516B79B1187DC4BB00D49A63 /* InfoPlist.strings */; };
 		516B79B5187DC4BB00D49A63 /* TouchDrawEx01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 516B79B4187DC4BB00D49A63 /* TouchDrawEx01Tests.m */; };
+		516B79C0187DC4DC00D49A63 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 516B79BF187DC4DC00D49A63 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		516B79B0187DC4BB00D49A63 /* TouchDrawEx01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchDrawEx01Tests-Info.plist"; sourceTree = "<group>"; };
 		516B79B2187DC4BB00D49A63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		516B79B4187DC4BB00D49A63 /* TouchDrawEx01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchDrawEx01Tests.m; sourceTree = "<group>"; };
+		516B79BE187DC4DC00D49A63 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		516B79BF187DC4DC00D49A63 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				516B799F187DC4BB00D49A63 /* ViewController.m */,
 				516B79A1187DC4BB00D49A63 /* Images.xcassets */,
 				516B7990187DC4BB00D49A63 /* Supporting Files */,
+				516B79BE187DC4DC00D49A63 /* DrawingView.h */,
+				516B79BF187DC4DC00D49A63 /* DrawingView.m */,
 			);
 			path = TouchDrawEx01;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				516B79A0187DC4BB00D49A63 /* ViewController.m in Sources */,
 				516B799A187DC4BB00D49A63 /* AppDelegate.m in Sources */,
 				516B7996187DC4BB00D49A63 /* main.m in Sources */,
+				516B79C0187DC4DC00D49A63 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
